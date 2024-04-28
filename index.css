@@ -71,3 +71,40 @@ h1 {
     border-radius: 10px;
     background-color: rgb(83, 49, 156);
 }
+
+.toggle-wrapper {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+.toggle-wrapper img {
+    height: 40px;
+    margin: 0 16px;
+}
+
+.toggle {
+    background-color: rgb(83, 49, 156);
+    height: 32px;
+    width: 140px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4px 0 16px;
+    align-items: center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.toggle span:first-of-type {
+    color: #fff;
+}
+
+.toggle span:last-of-type {
+    background-color: #fff;
+    color: rgb(83, 49, 156);
+    padding: 4px 16px;
+    border-radius: 20px;
+}
