@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(233, 213, 255);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px;
+    color: rgb(44, 44, 44);
+}
+
+h1 {
+    color: rgb(83, 49, 156);
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 900px;
+}
