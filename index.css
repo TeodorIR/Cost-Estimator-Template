@@ -17,4 +17,57 @@ h1 {
     background-color: #fff;
     width: 100%;
     max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 64px 64px 64px;
+    position: relative;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(200, 175, 255);
+    padding: 16px;
+}
+
+.tabs p {
+    padding: 8px;
+}
+
+.tabs p:hover {
+    color: rgb(83, 49, 156);
+    cursor: pointer;
+}
+
+.tabs p.active {
+    color: rgb(83, 49, 156);
+    position: relative;
+}
+
+.line {
+    height: 3px;
+    background-color: rgb(231, 231, 231);
+    width: 200px;
+    position: absolute;
+    top: 98px;
+    width: 100%;
+}
+
+.tabs .active::before {
+    content: "";
+    width: 200%;
+    height: 4px;
+    background-color: purple;
+    position: absolute;
+    bottom: -32px;
+    z-index: 2;
+    left: -50%;
+    border-radius: 10px;
+    background-color: rgb(83, 49, 156);
 }
