@@ -295,7 +295,9 @@ h1 {
 
 @media only screen and (max-width: 444px) {
     .tabs {
+        display: flex;
         font-size: 13px;
-        padding-left: 0px;
+        justify-content: center;
+        align-items: center;
     }
 }
