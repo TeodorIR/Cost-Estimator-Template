@@ -118,6 +118,8 @@ h1 {
     width: 50%;
     text-transform: uppercase;
     border-radius: 10px;
+    margin: 16px 0;
+    box-sizing: border-box;
 }
 
 .sessions-card p {
@@ -268,4 +270,32 @@ h1 {
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+    .card {
+        width: 100%;
+    }
+    .card-wrapper {
+        flex-wrap: wrap-reverse;
+    }
+    .sessions-card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding: 16px;
+    }
+     .container {
+        padding: 0 16px;
+    }
+}
+
+@media only screen and (max-width: 444px) {
+    .tabs {
+        font-size: 13px;
+        padding-left: 0px;
+    }
 }
